@@ -4,10 +4,10 @@ import { catList } from "../data/data"
 import { useState } from "react"
 
 function Rencontre (){
-    const [like, setLike] = useState<number>(0)
+    const [likes, setLike] = useState<number>(0)
     
     function traiterClic(){
-        setLike(like + 1)
+        setLike(likes + 1)
     }
 
     return(
@@ -18,9 +18,12 @@ function Rencontre (){
                     <CatItem
                         key={cat.id}
                         cat={cat}
+                        onclick={traiterClic}
                     />
                 )}
             </div>
+            <h1>Vos matchs</h1>
+            <p>Vous avez liké {likes} chats.</p>
         </div>
     )
 }
