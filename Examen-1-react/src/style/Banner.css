@@ -1,4 +1,10 @@
 .lmj-banner{
     display: flex;
     text-align: left;
+    width: 100%;
+}
+
+.lmj-logo{
+    width: 100px;
+    height: 100px;
 }

@@ -5,7 +5,7 @@ function Footer(){
         <footer className='lmj-footer'>
             <div className='lmj-footer-elem'>
                 Copyright Arthur Pozet
-            </div>
+            </div><br />
             <div className='lmj-footer-elem'>
                 Touts droits réservés Tincat. une filiale de Tinder.inc
             </div>
