@@ -1,10 +1,10 @@
-import cachou from '../assets/Cachou.jpg'
-import caramel from '../assets/Caramel.jpg'
-import felix from '../assets/Felix.jpg'
-import fripouille from '../assets/Fripouille.jpg'
-import lola from '../assets/Lola.jpg'
-import max from '../assets/Max.jpg'
-import myrtille from '../assets/Myrtille.jpg'
+import cachou from '../image/Cachou.jpg'
+import caramel from '../image/Caramel.jpg'
+import felix from '../image/Felix.jpg'
+import fripouille from '../image/Fripouille.jpg'
+import lola from '../image/Lola.jpg'
+import max from '../image/Max.jpg'
+import myrtille from '../image/Myrtille.jpg'
 
 export interface CatData {
     nom: string;
