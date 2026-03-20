@@ -16,51 +16,51 @@ export interface CatData {
 export const catList: CatData[] = [
     {
         nom: 'Cachou',
-        occupation: 'développeur logiciel',
+        occupation: ' développeur logiciel',
         id: 74488,
         photo: cachou,
-        recherche: 'amitié'
+        recherche: ' amitié'
     },
     {
         nom: 'Caramel',
-        occupation: 'retraité',
+        occupation: ' retraité',
         id: 994477,
         photo: caramel,
-        recherche: 'relation durable'
+        recherche: ' relation durable'
     },
     {
         nom: 'Félix',
-        occupation: 'épicier',
+        occupation: ' épicier',
         id: 198299,
         photo: felix,
-        recherche: 'relation durable'
+        recherche: ' relation durable'
     },
     {
         nom: 'Fripouille',
-        occupation: 'opticienne',
+        occupation: ' opticienne',
         id: 560583,
         photo: fripouille,
-        recherche: 'amitié ++'
+        recherche: ' amitié ++'
     },
     {
         nom: 'Lola',
-        occupation: 'clown',
+        occupation: ' clown',
         id: 730385,
         photo: lola,
-        recherche: 'amitié ++',
+        recherche: ' amitié ++',
     },
     {
         nom: 'Max',
-        occupation: 'astronaute',
+        occupation: ' astronaute',
         id: 479474,
         photo: max,
-        recherche: 'amitié',
+        recherche: ' amitié',
     },
     {
         nom: 'Myrtille',
-        occupation: 'influenceuse',
+        occupation: ' influenceuse',
         id: 479473,
         photo: myrtille,
-        recherche: 'relation durable',
+        recherche: ' relation durable',
     }
 ]

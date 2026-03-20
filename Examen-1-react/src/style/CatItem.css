@@ -1,0 +1,10 @@
+.lmj-cat-row{
+    width: 100%;
+    border: 1px solid blue;
+}
+
+.lmj-cat-row-image{
+    height: 110px;
+    width: 350px;
+    object-fit: cover;
+}
